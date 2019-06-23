@@ -6,15 +6,16 @@
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
 
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+      <div class="footer-col footer-col-3">
+        {%- if page.layout == 'post' -%}
+        <p><a href="/">More stuff here</a></p>
+        {%- endif -%}
+
         {%- if site.author -%}
         {{ site.author | escape }}
         {%- endif -%}
-        <img class="author" src="https://www.gravatar.com/avatar/491d582934f6a265e4cf31df850d7686?s=150"
-          alt="Jamie Evawin" />
-      </div>
-
-      <div class="footer-col footer-col-2">
+        <p><img class="author" src="https://www.gravatar.com/avatar/491d582934f6a265e4cf31df850d7686?s=150"
+          alt="Jamie Evawin" /></p>
       </div>
 
       <div class="footer-col footer-col-3">

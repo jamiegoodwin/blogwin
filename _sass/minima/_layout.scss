@@ -103,8 +103,13 @@
 }
 
 .post-link {
-  display: block;
-  @include relative-font-size(1.5);
+  line-height: 1.5;
+}
+
+@include media-query($on-palm) {
+  .post-link {
+    font-size: 6.5vw;
+  }
 }
 
 /**
@@ -117,7 +122,12 @@
 .post-content {
   margin-bottom: $spacing-unit;
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     margin-top: $spacing-unit;
   }
 }
@@ -126,7 +136,12 @@
  * Headings
  */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.15;
 }
 
@@ -148,4 +163,15 @@ h4 {
 
 h5 {
   @include relative-font-size(1.1);
+}
+
+h6 {
+  @include relative-font-size(1.05);
+}
+
+/**
+ * Decorative
+ */
+hr {
+  margin: $spacing-unit/2 auto;
 }
