@@ -10,14 +10,8 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 3.8.5"
 
-# Live Reload
-group :jekyll_plugins do
-  gem 'hawkins'
-end
-
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.9"
-  gem "jekyll-seo-tag", "~> 2.1"
-  gem 'jekyll-compress-images'
+  gem "redcarpet"
+  gem "rouge"
 end
