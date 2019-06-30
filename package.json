@@ -1,0 +1,63 @@
+{
+  "name": "blogwin",
+  "version": "1.0.0",
+  "description": "Jamie Evawin's personal blog.",
+  "main": "index.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamiegoodwin/blogwin.git"
+  },
+  "author": "Jamie Evawin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamiegoodwin/blogwin/issues"
+  },
+  "homepage": "https://github.com/jamiegoodwin/blogwin#readme",
+  "devDependencies": {
+    "change-case": "^3.1.0",
+    "gulp": "^4.0.2",
+    "gulp-auto-task": "0.0.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-image-resize": "^0.13.0",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "imagemin-mozjpeg": "^8.0.0",
+    "jshint": "^2.10.2",
+    "require-dir": "^1.2.0"
+  },
+  "paths": {
+    "tasks": "gulp-tasks/",
+    "src": "_jekyll/",
+    "build": "_dist/",
+    "vendor": {
+      "src": "_jekyll/assets/scripts/lib/",
+      "dest": "_dist/assets/js/"
+    },
+    "js": {
+      "src": "_jekyll/assets/scripts/",
+      "dest": "_dist/assets/js/"
+    },
+    "css": {
+      "src": "_jekyll/assets/styles/",
+      "dest": "_dist/assets/css/"
+    },
+    "img": {
+      "src": "_jekyll/assets/images/uploads/",
+      "dest": "_dist/assets/img/"
+    }
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ]
+}

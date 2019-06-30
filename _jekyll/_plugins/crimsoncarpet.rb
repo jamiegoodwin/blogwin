@@ -5,10 +5,14 @@ require "rouge/plugins/redcarpet"
 class Crimsoncarpet < Redcarpet::Render::HTML
     include Rouge::Plugins::Redcarpet
     def image(link, title, alt)
-        name = File.basename(link, ".*")
+        name = File.basename(link).downcase
         img = "<img 
             class=\"lazyload\"
-            data-src=\"#{link}\"
+            data-src=\"/assets/img/large/#{name}\"
+            data-srcset=\"/assets/img/small/#{name} 320w,
+                            /assets/img/medium/#{name} 480w,
+                            /assets/img/large/#{name} 800w\"
+            data-sizes=\"auto\"
             alt=\"#{alt}\"
             title=\"#{title}\"
         >"

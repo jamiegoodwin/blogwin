@@ -26,7 +26,9 @@
     }
   </script>
   {%- endif -%}
-  <script src="/assets/scripts/lazyload.js"></script>
+  {%- if page.layout != 'home' -%}
+  <script src="/assets/js/vendor.min.js"></script>
+  {%- endif -%}
 </body>
 
 </html>

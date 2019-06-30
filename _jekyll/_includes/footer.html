@@ -14,8 +14,12 @@
         {%- if site.author -%}
         {{ site.author | escape }}
         {%- endif -%}
-        <p><img class="author" src="https://www.gravatar.com/avatar/491d582934f6a265e4cf31df850d7686?s=150"
-          alt="Jamie Evawin" /></p>
+        <p>
+          <img class="lazyload author" data-sizes="auto" data-src="/assets/img/large/jamie.jpg"
+              data-srcset="/assets/img/small/jamie.jpg 320w,
+                            /assets/img/medium/jamie.jpg 480w"
+              alt="Jamie Evawin" />
+        </p>
       </div>
 
       <div class="footer-col footer-col-3">
