@@ -1,10 +1,10 @@
-var gulp = require('gulp'),
+let gulp = require('gulp'),
     /** Utilities */
     rename = require('gulp-rename'),
     /** JS Specific */
     jshint = require('gulp-jshint'),
     concat = require('gulp-concat'),
-    uglify = require('gulp-uglify'),
+    uglify = require('gulp-uglify-es').default,
     /** Config */
     paths = require('../package.json').paths;
 

@@ -11,7 +11,8 @@ layout: default
         {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
+          itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>
   </header>
 
@@ -19,9 +20,12 @@ layout: default
     {{ content }}
   </div>
 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
-
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+
+{%- if page.comments != false and jekyll.environment == "production" and site.disqus_shortname -%}
+<!-- Disqus comments - lazyloaded -->
+<section data-disqus data-disqus-url="{{ page.url | absolute_url }}" data-disqus-shortname="{{ site.disqus_shortname }}">
+  {%- include disqus_comments.html -%}
+</section>
+{%- endif -%}

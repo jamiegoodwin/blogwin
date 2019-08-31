@@ -1,3 +1,6 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
@@ -7,11 +10,24 @@
 
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
-        {{ content | replace: '<a href="http', '<a  rel="nofollow" target="_blank" href="http' }}
+        {{ content | replace: '<a href="http', '<a  rel="nofollow noopener noreferrer" target="_blank" href="http' }}
     </div>
   </main>
 
   {%- include footer.html -%}
+
+  {%- if page.layout != 'home' -%}
+  <script src="/assets/js/vendor.min.js"></script>
+  <script src="/assets/js/main.min.js"></script>
+  {%- endif -%}
+
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+  {%- include google-analytics.html -%}
+  {%- endif -%}
+  
+  {%- if page.layout == 'home' -%}
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  {%- endif -%}
 
   {%- if page.layout == 'home' -%}
   <script>
@@ -25,9 +41,6 @@
       });
     }
   </script>
-  {%- endif -%}
-  {%- if page.layout != 'home' -%}
-  <script src="/assets/js/vendor.min.js"></script>
   {%- endif -%}
 </body>
 

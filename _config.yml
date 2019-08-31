@@ -23,9 +23,11 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
+permalink: /:title/
 markdown: Crimsoncarpet
 highlighter: pygments
 google_analytics: UA-21399501-1
+disqus_shortname: jamiegoodwin
 source: _jekyll
 destination: _dist
 exclude: [assets]
