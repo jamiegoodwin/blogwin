@@ -5,7 +5,6 @@ backend:
 publish_mode: editorial_workflow
 # This line should *not* be indented
 media_folder: "_jekyll/assets/images/uploads"
-public_folder: "_dist/assets/img/large"
 site_url: https://jamie.evawin.uk
 logo_url: https://jamie.evawin.uk/favicons/android-chrome-384x384.png
 collections:
