@@ -27,9 +27,6 @@ layout: compress
   
   {%- if page.layout == 'home' -%}
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  {%- endif -%}
-
-  {%- if page.layout == 'home' -%}
   <script>
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
