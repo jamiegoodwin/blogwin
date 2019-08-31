@@ -2,7 +2,7 @@
 layout: blog
 title: How to set up a secure home VPN WiFi network for £21 + subscription
 date: 2019-06-22T23:02:56.448Z
-cover: /assets/images/uploads/petter-lagson-1670133-unsplash.jpg
+cover: ''
 ---
 # Installing DD-WRT
 
