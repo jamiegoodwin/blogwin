@@ -19,7 +19,7 @@ build:
   preview_env:
   - JEKYLL_ENV=staging
   preview_output_directory: _dist
-  install_dependencies_command: npm install
+  install_dependencies_command: npm run setup
   preview_docker_image: forestryio/ruby:2.6-node12
   mount_path: "/srv"
   working_dir: "/srv"
