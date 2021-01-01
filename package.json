@@ -4,7 +4,9 @@
   "description": "Jamie Evawin's personal blog.",
   "main": "index.md",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "setup": "bundle install && npm install && brew install graphicsmagick",
+    "develop": "gulp build_assets && bundle exec jekyll serve",
+    "build": "gulp build_assets && bundle exec jekyll build"
   },
   "repository": {
     "type": "git",
