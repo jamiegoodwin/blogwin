@@ -15,11 +15,11 @@ date: 2014-02-23T00:00:00.000Z
 
 This tutorial is a slimmed (very little explanation, mostly just copiable code), combined version of five previous ones explaining how to run a viable blog on a Raspberry Pi using Ghost. If you want more detail, I recommend you follow the previous five one-by-one (each links to the next at the end).
 
-1. [How to run a Raspberry Pi from a USB drive](how-to-run-a-raspberry-pi-from-a-usb-drive)
-2. [How to set up node.js on a Raspberry Pi](how-to-set-up-node-js-on-a-raspberry-pi)
-3. [How to set up the Ghost blogging platform (with node.js and Forever) on a Raspberry Pi](how-to-set-up-ghost-blogging-platform-with-node-js-and-forever-on-a-raspberry-pi)
-4. [How to install Varnish Cache on a Raspberry Pi](how-to-install-varnish-cache-on-a-raspberry-pi)
-5. [How to setup CloudFlare CDN on your Raspberry Pi with automatic dynamic DNS updates](how-to-automatically-update-cloudflare-with-your-ip-address)
+1. [How to run a Raspberry Pi from a USB drive](/2014-02-16-how-to-run-a-raspberry-pi-from-a-usb-drive/)
+2. [How to set up node.js on a Raspberry Pi](/2014-02-19-how-to-set-up-node-js-on-a-raspberry-pi/)
+3. [How to set up the Ghost blogging platform (with node.js and Forever) on a Raspberry Pi](/2014-02-19-how-to-set-up-ghost-blogging-platform-with-node-js-and-forever-on-a-raspberry-pi/)
+4. [How to install Varnish Cache on a Raspberry Pi](/2014-02-19-how-to-install-varnish-cache-on-a-raspberry-pi/)
+5. [How to setup CloudFlare CDN on your Raspberry Pi with automatic dynamic DNS updates](/2014-02-23-how-to-automatically-update-cloudflare-with-your-ip-address/)
 
 Otherwise, crack on.
 
