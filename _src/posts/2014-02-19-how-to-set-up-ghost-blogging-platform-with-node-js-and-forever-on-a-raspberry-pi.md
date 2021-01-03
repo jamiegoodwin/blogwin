@@ -17,7 +17,7 @@ This tutorial will take you through installing the Ghost blogging platform on a 
 
 It's based on the main tutorial from [ghost.org](http://docs.ghost.org/installation/linux/), but since I had a few problems with that I made some modifications.
 
-First up, if you don't already have it install node.js from [my guide here]({{ site.baseurl }}{% post_url 2014-02-19-how-to-set-up-node-js-on-a-raspberry-pi %}) (there's a link back to this page at the end).
+First up, if you don't already have it install node.js from [my guide here](how-to-set-up-node-js-on-a-raspberry-pi) (there's a link back to this page at the end).
 
 With the latest version of node.js installed, grab yourself a copy of SQLite 3 - this should be installed during the Ghost installation but in my experience, preinstalling it reduces errors:
 

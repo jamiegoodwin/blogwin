@@ -3,12 +3,7 @@
   "version": "1.0.0",
   "description": "Jamie Evawin's personal blog.",
   "main": "index.md",
-  "scripts": {
-    "setup-forestry": "bundle install && npm install && apt-get update && apt-get install graphicsmagick -y",
-    "setup": "bundle install && npm install && brew install graphicsmagick",
-    "develop": "gulp build_assets && bundle exec jekyll serve",
-    "build": "gulp build_assets && bundle exec jekyll build"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jamiegoodwin/blogwin.git"
@@ -20,40 +15,38 @@
   },
   "homepage": "https://github.com/jamiegoodwin/blogwin#readme",
   "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
     "change-case": "^3.1.0",
     "gulp": "^4.0.2",
     "gulp-auto-task": "0.0.1",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-clean-css": "^4.2.0",
     "gulp-concat": "^2.6.1",
-    "gulp-image-resize": "^0.13.0",
-    "gulp-imagemin": "^6.0.0",
     "gulp-jshint": "^2.1.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-uglify-es": "^1.0.4",
-    "imagemin-mozjpeg": "^8.0.0",
     "jshint": "^2.10.2",
     "require-dir": "^1.2.0"
   },
   "paths": {
     "tasks": "gulp-tasks/",
-    "src": "_jekyll/",
+    "src": "_src/",
     "build": "_dist/",
     "vendor": {
-      "src": "_jekyll/assets/scripts/lib/",
+      "src": "_src/assets/scripts/lib/",
       "dest": "_dist/assets/js/"
     },
     "js": {
-      "src": "_jekyll/assets/scripts/",
+      "src": "_src/assets/scripts/",
       "dest": "_dist/assets/js/"
     },
     "css": {
-      "src": "_jekyll/assets/styles/",
+      "src": "_src/assets/styles/",
       "dest": "_dist/assets/css/"
     },
     "img": {
-      "src": "_jekyll/assets/images/uploads/",
+      "src": "_src/assets/images/uploads/",
       "dest": "_dist/assets/img/"
     }
   },
