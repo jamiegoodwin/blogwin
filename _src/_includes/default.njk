@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+
+    <!-- capture the CSS content as a Nunjucks variable -->
+    {% set css %}
+    {% include "_dist/assets/styles/my.css" %}
+    {% endset %}
+    <!-- feed it through our cssmin filter to minify -->
+    <style>
+      {{css | safe}}
+    </style>
+  </head>
+  <body class="subpixel-antialiased font-light tracking-wide text-lg bg-white text-gray-900 dark:bg-gray-900 dark:text-white">
+    {{ content | safe }}
+    <footer class="border-solid border-0 border-t border-gray-300 dark:border-gray-600 p-4 flex text-gray-700 dark:text-gray-300">
+      <div class="flex-1 p-2">
+        <h2 class="text-xl mb-4">Blogwin, by Jamie Evawin</h2>
+        <img class="rounded-full shadow-md" srcset="http://www.gravatar.com/avatar/e2d9a0243d695c9c7436328855a8ee8a?s=100 100w,
+        http://www.gravatar.com/avatar/e2d9a0243d695c9c7436328855a8ee8a?s=150 150w" sizes="(max-width: 400px) 100px, 150px" src="http://www.gravatar.com/avatar/e2d9a0243d695c9c7436328855a8ee8a?s=100" alt="Jamie's handsome profile picture">
+      </div>
+      <div class="flex-1 p-2">
+        <p>I'm a techy and an internet geek. I love problem solving and nerding out online and with bits of tech. Anything I think is worth sharing finds its way onto this blog.</p>
+      </div>
+    </footer>
+  </body>
+</html>

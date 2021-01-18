@@ -39,7 +39,7 @@ Here's the punchline. That doesn't work for me :-( Scheduled reboot is...schedul
     - Commands
 3. Copy and paste the following code into the big text box:
 
-    ```
+    ```sh
     echo "#!/bin/sh" > /tmp/restart_router 
     echo "startservice run_rc_shutdown; /sbin/reboot" >> /tmp/restart_router 
     chmod a+x /tmp/restart_router 

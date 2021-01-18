@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Jamie Evawin's personal blog.",
   "main": "index.md",
-  "scripts": {},
+  "scripts": {
+    "clean": "rm -R _dist",
+    "develop": "eleventy --input=_src --serve",
+    "build": "eleventy --input=_src"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jamiegoodwin/blogwin.git"
@@ -16,44 +20,14 @@
   "homepage": "https://github.com/jamiegoodwin/blogwin#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
-    "change-case": "^3.1.0",
-    "gulp": "^4.0.2",
-    "gulp-auto-task": "0.0.1",
-    "gulp-autoprefixer": "^6.1.0",
-    "gulp-clean-css": "^4.2.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-jshint": "^2.1.0",
-    "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-uglify-es": "^1.0.4",
-    "jshint": "^2.10.2",
-    "require-dir": "^1.2.0"
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
   },
-  "paths": {
-    "tasks": "gulp-tasks/",
-    "src": "_src/",
-    "build": "_dist/",
-    "vendor": {
-      "src": "_src/assets/scripts/lib/",
-      "dest": "_dist/assets/js/"
-    },
-    "js": {
-      "src": "_src/assets/scripts/",
-      "dest": "_dist/assets/js/"
-    },
-    "css": {
-      "src": "_src/assets/styles/",
-      "dest": "_dist/assets/css/"
-    },
-    "img": {
-      "src": "_src/assets/images/uploads/",
-      "dest": "_dist/assets/img/"
-    }
-  },
-  "browserslist": [
-    "last 2 versions",
-    "> 1%",
-    "maintained node versions",
-    "not dead"
-  ]
+  "dependencies": {
+    "autoprefixer": "^10.2.1",
+    "clean-css": "^4.2.3",
+    "eleventy-plugin-tailwindcss": "^0.3.0",
+    "markdown-it-class": "file:./markdown-it-class",
+    "tailwindcss": "^2.0.2"
+  }
 }
