@@ -15,8 +15,10 @@
     </style>
   </head>
   <body class="subpixel-antialiased font-light tracking-wide text-lg bg-white text-gray-900 dark:bg-gray-900 dark:text-white">
-    {{ content | safe }}
-    <footer class="border-solid border-0 border-t border-gray-300 dark:border-gray-600 p-4 flex text-gray-700 dark:text-gray-300">
+    <div class="container mx-auto max-w-4xl p-4">
+      {{ content | safe }}
+    </div>
+    <footer class="container mx-auto max-w-4xl p-4 border-solid border-0 border-t border-gray-300 dark:border-gray-600 p-4 flex text-gray-700 dark:text-gray-300">
       <div class="flex-1 p-2">
         <h2 class="text-xl mb-4">Blogwin, by Jamie Evawin</h2>
         <img class="rounded-full shadow-md" srcset="http://www.gravatar.com/avatar/e2d9a0243d695c9c7436328855a8ee8a?s=100 100w,

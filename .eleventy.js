@@ -1,6 +1,9 @@
 const pluginTailwindCSS = require("eleventy-plugin-tailwindcss");
 const markdownIt = require("markdown-it");
 const markdownItClass = require("markdown-it-class");
+const htmlmin = require("html-minifier");
+const posthtml = require("posthtml");
+const uglify = require("posthtml-minify-classnames");
 
 // markdown-it-class mapping
 //const mapping = require("./_src/assets/styles/markdown.js");
@@ -57,6 +60,23 @@ module.exports = (config) => {
 
   // markdown-it-class
   config.setLibrary("md", md);
+
+  // minify html and uglify classnames
+  config.addTransform("htmlmin", async (content, outputPath) => {
+    if(outputPath.endsWith(".html")) {
+      const {html} = await posthtml().use(uglify()).process(content);
+
+      let minified = htmlmin.minify(html, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true
+      });
+
+      return minified;
+    }
+
+    return content;
+  });
 
   // set output dir
   return {
