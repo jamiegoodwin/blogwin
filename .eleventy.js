@@ -78,6 +78,9 @@ module.exports = (config) => {
     return content;
   });
 
+  // passthrough images
+  confir.addPassthroughCopy("assets/images/uploads");
+
   // set output dir
   return {
     dir: {
