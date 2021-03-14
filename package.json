@@ -1,13 +1,12 @@
 {
   "name": "blogwin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Jamie Evawin's personal blog.",
   "main": "index.md",
   "scripts": {
-    "setup-forestry": "bundle install && npm install && apt-get update && apt-get install graphicsmagick -y",
-    "setup": "bundle install && npm install && brew install graphicsmagick",
-    "develop": "gulp build_assets && bundle exec jekyll serve",
-    "build": "gulp build_assets && bundle exec jekyll build"
+    "clean": "rm -R _dist",
+    "develop": "eleventy --input=_src --serve",
+    "build": "eleventy --input=_src"
   },
   "repository": {
     "type": "git",
@@ -20,47 +19,15 @@
   },
   "homepage": "https://github.com/jamiegoodwin/blogwin#readme",
   "devDependencies": {
-    "change-case": "^3.1.0",
-    "gulp": "^4.0.2",
-    "gulp-auto-task": "0.0.1",
-    "gulp-autoprefixer": "^6.1.0",
-    "gulp-clean-css": "^4.2.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-image-resize": "^0.13.0",
-    "gulp-imagemin": "^6.0.0",
-    "gulp-jshint": "^2.1.0",
-    "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-uglify-es": "^1.0.4",
-    "imagemin-mozjpeg": "^8.0.0",
-    "jshint": "^2.10.2",
-    "require-dir": "^1.2.0"
-  },
-  "paths": {
-    "tasks": "gulp-tasks/",
-    "src": "_jekyll/",
-    "build": "_dist/",
-    "vendor": {
-      "src": "_jekyll/assets/scripts/lib/",
-      "dest": "_dist/assets/js/"
-    },
-    "js": {
-      "src": "_jekyll/assets/scripts/",
-      "dest": "_dist/assets/js/"
-    },
-    "css": {
-      "src": "_jekyll/assets/styles/",
-      "dest": "_dist/assets/css/"
-    },
-    "img": {
-      "src": "_jekyll/assets/images/uploads/",
-      "dest": "_dist/assets/img/"
-    }
-  },
-  "browserslist": [
-    "last 2 versions",
-    "> 1%",
-    "maintained node versions",
-    "not dead"
-  ]
+    "@11ty/eleventy": "^0.11.1",
+    "posthtml-minify-classnames": "^0.2.3",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1",
+    "autoprefixer": "^10.2.1",
+    "clean-css": "^4.2.3",
+    "eleventy-plugin-tailwindcss": "^0.3.0",
+    "html-minifier": "^4.0.0",
+    "markdown-it-class": "file:./markdown-it-class",
+    "tailwindcss": "^2.0.2"
+  }
 }
