@@ -5,7 +5,7 @@ title: Boost your WiFi with whole-home signal and up to double the speed
 cover: ''
 
 ---
-[Skip to instructions]()
+[Skip to instructions](#step-one "Skip to instructions")
 
 ### Step One
 
