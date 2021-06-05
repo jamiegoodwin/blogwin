@@ -71,6 +71,10 @@ If you just want to be done or test it out, then come up with a brand new Wi-Fi 
 
 _Don’t tick **Separate 2.4 GHz and 5 GHz** unless you know why you’d want to do that_.
 
+![](/assets/images/uploads/screenshot-2021-05-23-at-11-03-00.png)
+
+On the next screen, come up with your own login name and admin password (you’ll use these if you log into the router to change settings again). 
+
 **What Happens Now?**
 
 Now your original modem-router from your ISP is still giving out the Internet via its Wi-Fi, but your new fancy ASUS router is also giving out the Internet on a different network name.
