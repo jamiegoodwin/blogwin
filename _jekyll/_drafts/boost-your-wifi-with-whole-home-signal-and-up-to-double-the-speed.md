@@ -13,19 +13,19 @@ You’re probably here because you’re paying for speedy Internet and it’s sh
 
 In the furthest corner of my house from our Virgin Hub 4 or 5 or 6 or whatever, I got some f*ing impressive speed differences with a new router. To test, I put the laptop on the floor and connected to the our Virgin Hub’s Wi-Fi, then to the new router’s Wi-Fi in turn running tests on [speedtest.net](https://www.speedtest.net/ "Test your Internet speed at speedtest.net").
 
-We’re on Virgin cable at **110 MB/s**.
+We’re on Virgin cable at **110 Mb/s**.
 
-**Original Virgin Hub - 24 MB/s**
+**Original Virgin Hub - 34 Mb/s**
 
-![](/assets/images/uploads/screenshot-2021-05-23-at-11-28-45.png)
+![](/assets/images/uploads/screenshot-2021-05-23-at-12-11-10.png)
 
-To be fair, this is not bad. It’s about 89% speed loss. Virgin seem to have updated their Hub software (when we first got the Hub, one wall would kill the connection).
+To be fair, this is not bad. It’s about 69% speed loss. Virgin seem to have updated their Hub software (when we first got the Hub, one wall would kill the connection).
 
-**New ASUS Router - 45 MB/s**
+**New ASUS Router - 56 Mb/s**
 
-![](/assets/images/uploads/screenshot-2021-05-23-at-11-35-17.png)
+![](/assets/images/uploads/screenshot-2021-05-23-at-12-11-34.png)
 
-However, without _any_ extra setup you can see the ASUS literally doubles the speed for distant connections. This varies a little; sometimes it was about 50% faster, sometimes it was more than double the speed of the Virgin router. However, it was always faster (I did three or four speed tests).
+However, without _any_ extra setup you can see the ASUS router adds just over **20 Mb/s** to the connection. To put that into perspective, that’s a full copper broadband connection.
 
 That’s why you would do this ☺️
 
@@ -65,7 +65,7 @@ Once it’s plugged in, press the power button on the new router (red arrow; all
 
 ### Step Three
 
-#### Configure the Router
+#### Connect to the Router
 
 Right now your new router is powering on for the first time. It’s getting the Internet from your ISP’s modem-router, and it’s made its own new Wi-Fi network for you.
 
@@ -76,11 +76,15 @@ It’s time to configure it.
 
    ![An image of a list of Wi-Fi networks on a macOS computer; accessible by clicking the settings icon in the top right or the screen](/assets/images/uploads/screenshot-2021-05-23-at-10-59-51.png "macOS Wi-Fi list")
    * On a Mac click the little dials icon in the top right and go to Wi-Fi. On a PC it’s the wireless icon in the bottom right. [Instructions for a PC here.](https://support.microsoft.com/en-us/windows/connect-to-a-wi-fi-network-in-windows-10-1f881677-b569-0cd5-010d-e3cd3579d263 "How to connect to WiFi in Windows 10")![An image of the icons in the Windows taskbar that open the Wi-Fi networks list. One looks like a globe. One like a computer screen. One like a Wi-Fi symbol or radio waves.](/assets/images/uploads/6ef6a0c7-ad00-42e3-b803-6f68c062adc5.png "Windows Wi-Fi")
-   * Connect to either the 5G or 2G network - whichever has the strongest signal. If they’re the same choose 5G.
+3. Connect to either the 5G or 2G network - whichever has the strongest signal. If they’re the same choose 5G.
 
 > **Explanation for nerds:** 5G, or 5GHz, is a faster Wi-Fi signal because its radio wavelength is shorter, meaning it can carry more data. However, that also means it gets blocked more easily (e.g. by walls). 2G, or 2.4GHz, is a slower signal but travels further and better through walls and other obstacles. However, 2.4GHZ is used by lots of other devices like baby monitors, garage door openers. You shouldn’t need to worry though, because this new router automatically manages which one your devices use.
 
-1. Open a web browser (Chrome, Safari, Edge).
+### Step Four
+
+#### Configure the Router
+
+1. While on your **new router’s Wi-Fi**: open a web browser (Chrome, Safari, Edge).
 2. Visit this URL: [http://192.168.1.1/](http://192.168.1.1/ "Router configuration page")
 3. You should be presented with this screen: ![The first screen of a new ASUS router’s configuration website, asking a user if they wish to create a new network or go into advanced settings.](/assets/images/uploads/screenshot-2021-05-23-at-11-01-07.png "ASUS router welcome screen")
 4. Hit **Create A New Network**
@@ -109,6 +113,25 @@ Connect to the new network with the cool name you gave it. Test your speeds.
 
 Remember those antennae you screwed in? One of the nifty things about the ASUS router is it has those three _directional_ antennae.
 
-They’re designed to be pointed towards where you need the strongest connection. I have one pointed at the kitchen, one pointed at our bedroom upstairs, and one pointed where my wife works from home in front room.
+Play around trying to point them where you want the best Wi-Fi and run speed tests to get the strongest connection.
 
-Play around with trying to point them where you want the best Wi-Fi and run speed tests to get the strongest connection.
+**You Could Stop Here**
+
+But you shouldn’t. For a couple of reasons:
+
+1. You’ll have to connect every device in your home to the new Wi-Fi to make the most of it.
+2. You’ve just created another **competing network**, i.e. your new Wi-Fi is competing with your original one for bandwidth and they might interfere with each other.
+
+To put 2 into perspective, remember earlier I said I got **34 Mb/s** with our Virgin router in the corner of the house, **56 Mb/S** with the new ASUS router?
+
+Turning off the Virgin router’s Wi-Fi squeezes out an additional **4 Mb/s** for a total of **60 Mb/s**.
+
+![](/assets/images/uploads/screenshot-2021-05-23-at-12-11-50.png)
+
+That might not seem much but if you have a lot of devices simultaneously connected and downloading, that impact will be greater.
+
+### Step Five
+
+#### MORE SPEED!
+
+Coming soon.
