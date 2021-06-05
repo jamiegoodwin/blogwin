@@ -18,5 +18,3 @@ fields:
   name: cover
   label: cover
   hidden: true
-pages:
-- _jekyll/_posts/test.md
