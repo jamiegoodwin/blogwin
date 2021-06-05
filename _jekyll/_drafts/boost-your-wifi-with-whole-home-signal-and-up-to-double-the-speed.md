@@ -34,7 +34,7 @@ Where the black cable is plugged into a yellow LAN port of my Virgin modem-route
 
 Once it’s plugged in, press the power button on the new router (red arrow; all the lights on the front should start flashing).
 
-> **Explanation for nerds:** LAN = Local Area Network. WAN = Wide Area Network (e.g. the Internet). Your ISP’s modem-router shares the Internet via WiFi (for now) and those 4 LAN ports. We’re using a LAN port to provide Internet to the new router, but so that the new router recognises it as the Internet we’re going into the WAN (Internet) port of the new router.
+> **Explanation for nerds:** LAN = Local Area Network. WAN = Wide Area Network (e.g. the Internet). Your ISP’s modem-router shares the Internet via Wi-Fi (for now) and those 4 LAN ports. We’re using a LAN port to provide Internet to the new router, but so that the new router recognises it as the Internet we’re going into the WAN (Internet) port of the new router.
 >
 > The reason we need to go via your ISP’s device is that it’s a **modem** as well, meaning it gets the Internet via cable (Virgin) or a phone line (BT, Sky, TalkTalk, etc.).
 
@@ -42,12 +42,15 @@ Once it’s plugged in, press the power button on the new router (red arrow; all
 
 #### Configure to the Router
 
-Right now your new router is powering on for the first time. It’s getting the Internet from your ISP’s modem-router, and it’s made its own new WiFi network for you.
+Right now your new router is powering on for the first time. It’s getting the Internet from your ISP’s modem-router, and it’s made its own new Wi-Fi network for you.
 
 It’s time to configure it.
 
 1. Open your laptop or a good-sized tablet (preferably not a phone, this is harder on a tiny screen).
-2. Look for a WiFi network called **ASUS_XX**
+2. Look for a Wi-Fi network called **ASUS_XX**
 
    ![](/assets/images/uploads/screenshot-2021-05-23-at-10-59-51.png)
-   * On a Mac click the little dials icon and go to WiFi. On a PC it’s the wireless icon in the bottom right.
+   * On a Mac click the little dials icon in the top right and go to Wi-Fi. On a PC it’s the wireless icon in the bottom right. [Instructions for a PC here.](https://support.microsoft.com/en-us/windows/connect-to-a-wi-fi-network-in-windows-10-1f881677-b569-0cd5-010d-e3cd3579d263 "How to connect to WiFi in Windows 10")![](/assets/images/uploads/6ef6a0c7-ad00-42e3-b803-6f68c062adc5.png)
+   * Connect to either the 5G or 2G network - whichever has the strongest signal. If they’re the same choose 5G.
+
+> **Explanation for nerds:** 5G is a faster Wi-Fi signal because its radio wavelength is shorter, meaning it can carry more data. However, that also means it’s more prone to interference - e.g. from walls, metal, etc. Think of it like this: 5G or 5GHz is FM radio. 2G or 2GHz is AM radio.
