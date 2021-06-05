@@ -79,16 +79,28 @@ On the next screen, come up with your own login name and admin password (you’l
 
 Now your original modem-router from your ISP is still giving out the Internet via its Wi-Fi, but your new fancy ASUS router is also giving out the Internet on a different network name.
 
-Connect to the new network with the cool name you gave it. Test your speeds. 
+Connect to the new network with the cool name you gave it. Test your speeds.
 
 In the furthest corner of my house from the router, I got some f*ing impressive speed differences with the new router. To test, put the laptop on the floor and connected to the Virgin Wi-Fi, went to [speedtest.net](https://www.speedtest.net/ "Test your Internet speed at speedtest.net").
 
 We’re on Virgin cable at **110 MB/s**.
 
-**Original Virgin Hub**
+**Original Virgin Hub - 24 MB/s**
 
 ![](/assets/images/uploads/screenshot-2021-05-23-at-11-28-45.png)
 
 To be fair, this is not bad. It’s about 89% speed loss. Virgin seem to have updated their Hub software (when we first got the Hub, 1 wall would kill the connection).
 
-**New ASUS Router**
+**New ASUS Router - 45 MB/s**
+
+![](/assets/images/uploads/screenshot-2021-05-23-at-11-35-17.png)
+
+However, without _any_ extra setup you can see the ASUS literally doubles the speed for distant connections. This varies a little; sometimes it was about 50% faster, sometimes it was more than double the speed of the Virgin router. However, it was always faster (I did three or four speed tests).
+
+**Getting the Most Speed**
+
+Remember those antennae you screwed in? One of the nifty things about the ASUS router is it has those three _directional_ antennae.
+
+They’re designed to be pointed towards where you need the strongest connection. I have one pointed at the kitchen, one pointed at our bedroom upstairs, and one pointed where my wife works from home in front room.
+
+Play around with trying to point them where you want the best Wi-Fi and run speed tests to get the strongest connection.
