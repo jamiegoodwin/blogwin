@@ -32,6 +32,22 @@ It should look like this:
 
 Where the black cable is plugged into a yellow LAN port of my Virgin modem-router and the blue WAN port of the ASUS router.
 
+Once it’s plugged in, press the power button on the new router (red arrow; all the lights on the front should start flashing).
+
 > **Explanation for nerds:** LAN = Local Area Network. WAN = Wide Area Network (e.g. the Internet). Your ISP’s modem-router shares the Internet via WiFi (for now) and those 4 LAN ports. We’re using a LAN port to provide Internet to the new router, but so that the new router recognises it as the Internet we’re going into the WAN (Internet) port of the new router.
 >
 > The reason we need to go via your ISP’s device is that it’s a **modem** as well, meaning it gets the Internet via cable (Virgin) or a phone line (BT, Sky, TalkTalk, etc.).
+
+### Step Three
+
+#### Configure to the Router
+
+Right now your new router is powering on for the first time. It’s getting the Internet from your ISP’s modem-router, and it’s made its own new WiFi network for you.
+
+It’s time to configure it.
+
+1. Open your laptop or a good-sized tablet (preferably not a phone, this is harder on a tiny screen).
+2. Look for a WiFi network called **ASUS_XX**
+
+   ![](/assets/images/uploads/screenshot-2021-05-23-at-10-59-51.png)
+   * On a Mac click the little dials icon and go to WiFi. On a PC it’s the wireless icon in the bottom right.
