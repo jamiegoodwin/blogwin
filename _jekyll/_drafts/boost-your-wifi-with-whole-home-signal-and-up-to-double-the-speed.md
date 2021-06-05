@@ -7,6 +7,30 @@ cover: ''
 ---
 [Skip to instructions](#step-one "Skip to instructions")
 
+## 🤷‍♂️ Why Would I Do This?
+
+You’re probably here because you’re paying for speedy Internet and it’s shit because the cheap-ass router your ISP gave you is...well...cheap-ass.
+
+In the furthest corner of my house from our Virgin Hub 4 or 5 or 6 or whatever, I got some f*ing impressive speed differences with a new router. To test, I put the laptop on the floor and connected to the our Virgin Hub’s Wi-Fi, then to the new router’s Wi-Fi in turn running tests on [speedtest.net](https://www.speedtest.net/ "Test your Internet speed at speedtest.net").
+
+We’re on Virgin cable at **110 MB/s**.
+
+**Original Virgin Hub - 24 MB/s**
+
+![](/assets/images/uploads/screenshot-2021-05-23-at-11-28-45.png)
+
+To be fair, this is not bad. It’s about 89% speed loss. Virgin seem to have updated their Hub software (when we first got the Hub, one wall would kill the connection).
+
+**New ASUS Router - 45 MB/s**
+
+![](/assets/images/uploads/screenshot-2021-05-23-at-11-35-17.png)
+
+However, without _any_ extra setup you can see the ASUS literally doubles the speed for distant connections. This varies a little; sometimes it was about 50% faster, sometimes it was more than double the speed of the Virgin router. However, it was always faster (I did three or four speed tests).
+
+That’s why you would do this ☺️
+
+## 😲 How Can I Achieve This Magical Speed Improvement?
+
 ### Step One
 
 #### Buy the Router
@@ -80,22 +104,6 @@ On the next screen, come up with your own login name and admin password (you’l
 Now your original modem-router from your ISP is still giving out the Internet via its Wi-Fi, but your new fancy ASUS router is also giving out the Internet on a different network name.
 
 Connect to the new network with the cool name you gave it. Test your speeds.
-
-In the furthest corner of my house from the router, I got some f*ing impressive speed differences with the new router. To test, I put the laptop on the floor and connected to the to Wi-Fis in turn using [speedtest.net](https://www.speedtest.net/ "Test your Internet speed at speedtest.net").
-
-We’re on Virgin cable at **110 MB/s**.
-
-**Original Virgin Hub - 24 MB/s**
-
-![](/assets/images/uploads/screenshot-2021-05-23-at-11-28-45.png)
-
-To be fair, this is not bad. It’s about 89% speed loss. Virgin seem to have updated their Hub software (when we first got the Hub, 1 wall would kill the connection).
-
-**New ASUS Router - 45 MB/s**
-
-![](/assets/images/uploads/screenshot-2021-05-23-at-11-35-17.png)
-
-However, without _any_ extra setup you can see the ASUS literally doubles the speed for distant connections. This varies a little; sometimes it was about 50% faster, sometimes it was more than double the speed of the Virgin router. However, it was always faster (I did three or four speed tests).
 
 **Getting the Most Speed**
 
