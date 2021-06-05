@@ -56,10 +56,10 @@ It’s time to configure it.
 
 > **Explanation for nerds:** 5G, or 5GHz, is a faster Wi-Fi signal because its radio wavelength is shorter, meaning it can carry more data. However, that also means it gets blocked more easily (e.g. by walls). 2G, or 2.4GHz, is a slower signal but travels further and better through walls and other obstacles. However, 2.4GHZ is used by lots of other devices like baby monitors, garage door openers. You shouldn’t need to worry though, because this new router automatically manages which one your devices use.
 
-3. Open a web browser (Chrome, Safari, Edge).
-4. Visit this URL: [http://192.168.1.1/](http://192.168.1.1/ "Router configuration page")
-5. You should be presented with this screen: ![The first screen of a new ASUS router’s configuration website, asking a user if they wish to create a new network or go into advanced settings.](/assets/images/uploads/screenshot-2021-05-23-at-11-01-07.png "ASUS router welcome screen")
-6. Hit **Create A New Network**
+1. Open a web browser (Chrome, Safari, Edge).
+2. Visit this URL: [http://192.168.1.1/](http://192.168.1.1/ "Router configuration page")
+3. You should be presented with this screen: ![The first screen of a new ASUS router’s configuration website, asking a user if they wish to create a new network or go into advanced settings.](/assets/images/uploads/screenshot-2021-05-23-at-11-01-07.png "ASUS router welcome screen")
+4. Hit **Create A New Network**
 
 ##### Decision Time!
 
@@ -73,10 +73,18 @@ _Don’t tick **Separate 2.4 GHz and 5 GHz** unless you know why you’d want to
 
 ![](/assets/images/uploads/screenshot-2021-05-23-at-11-03-00.png)
 
-On the next screen, come up with your own login name and admin password (you’ll use these if you log into the router to change settings again). 
+On the next screen, come up with your own login name and admin password (you’ll use these if you log into the router to change settings again).
 
 **What Happens Now?**
 
 Now your original modem-router from your ISP is still giving out the Internet via its Wi-Fi, but your new fancy ASUS router is also giving out the Internet on a different network name.
 
-Connect to the new network with the cool name you gave it.
+Connect to the new network with the cool name you gave it. Test your speeds. 
+
+In the furthest corner of my house from the router, I got some f*ing impressive speed differences with the new router. To test, put the laptop on the floor and connected to the Virgin Wi-Fi, went to [speedtest.net](https://www.speedtest.net/ "Test your Internet speed at speedtest.net").
+
+We’re on Virgin cable at **110 MB/s**.
+
+**Original Virgin Hub**
+
+![](/assets/images/uploads/screenshot-2021-05-23-at-11-28-45.png)
