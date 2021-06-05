@@ -1,12 +1,10 @@
 ---
 layout: post
-date: 2021-05-23 12:31:37 +0000
+date: 2021-05-23T12:31:37.000+00:00
 title: Boost your Wi-Fi with whole-home signal and up to double the speed
 cover: ''
 
 ---
-[Skip to instructions](#step-one "Skip to instructions")
-
 ## 🤷‍♂️ Why Would I Do This?
 
 You’re probably here because you’re paying for speedy Internet and it’s shit because the cheap-ass router your ISP gave you is...well...cheap-ass.
