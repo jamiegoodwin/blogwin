@@ -88,3 +88,7 @@ We’re on Virgin cable at **110 MB/s**.
 **Original Virgin Hub**
 
 ![](/assets/images/uploads/screenshot-2021-05-23-at-11-28-45.png)
+
+To be fair, this is not bad. It’s about 89% speed loss. Virgin seem to have updated their Hub software (when we first got the Hub, 1 wall would kill the connection).
+
+**New ASUS Router**
