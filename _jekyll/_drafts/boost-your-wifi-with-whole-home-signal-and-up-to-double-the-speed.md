@@ -81,7 +81,7 @@ Now your original modem-router from your ISP is still giving out the Internet vi
 
 Connect to the new network with the cool name you gave it. Test your speeds.
 
-In the furthest corner of my house from the router, I got some f*ing impressive speed differences with the new router. To test, put the laptop on the floor and connected to the Virgin Wi-Fi, went to [speedtest.net](https://www.speedtest.net/ "Test your Internet speed at speedtest.net").
+In the furthest corner of my house from the router, I got some f*ing impressive speed differences with the new router. To test, I put the laptop on the floor and connected to the to Wi-Fis in turn using [speedtest.net](https://www.speedtest.net/ "Test your Internet speed at speedtest.net").
 
 We’re on Virgin cable at **110 MB/s**.
 
