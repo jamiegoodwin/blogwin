@@ -65,7 +65,7 @@ Once it’s plugged in, press the power button on the new router (red arrow; all
 
 ### Step Three
 
-#### Configure to the Router
+#### Configure the Router
 
 Right now your new router is powering on for the first time. It’s getting the Internet from your ISP’s modem-router, and it’s made its own new Wi-Fi network for you.
 
