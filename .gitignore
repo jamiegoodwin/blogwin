@@ -2,3 +2,4 @@ _dist
 _jekyll/.jekyll-metadata
 node_modules
 .cache
+.DS_Store
