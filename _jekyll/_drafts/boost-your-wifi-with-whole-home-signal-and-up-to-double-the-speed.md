@@ -5,6 +5,8 @@ title: Boost your WiFi with whole-home signal and up to double the speed
 cover: ''
 
 ---
+[Skip to instructions]()
+
 ### Step One
 
 #### Buy the Router
@@ -22,8 +24,14 @@ It’s £130 on Amazon and if you use my links I’ll get 12% commission 😊 bu
 When your router arrives, whip everything out of the box and start plugging in.
 
 1. Plug the router into power.
-2. Take the Ethernet cable (looks like a giant black telephone cable) and plug one end into one of the **LAN** ports of your current router (from your Internet provider), and the other end into the **WAN** (blue) port of the new ASUS router.
+2. Take the Ethernet cable (looks like a giant black telephone cable) and plug one end into one of (1-4, doesn’t matter which) the **LAN** ports of your current router (from your Internet provider), and the other end into the **WAN** (blue) port of the new ASUS router.
 
 It should look like this:
 
 ![](/assets/images/uploads/img_0567.jpeg)
+
+Where the black cable is plugged into a yellow LAN port of my Virgin modem-router and the blue WAN port of the ASUS router.
+
+> **Explanation for nerds:** LAN = Local Area Network. WAN = Wide Area Network (e.g. the Internet). Your ISP’s modem-router shares the Internet via WiFi (for now) and those 4 LAN ports. We’re using a LAN port to provide Internet to the new router, but so that the new router recognises it as the Internet we’re going into the WAN (Internet) port of the new router.
+>
+> The reason we need to go via your ISP’s device is that it’s a **modem** as well, meaning it gets the Internet via cable (Virgin) or a phone line (BT, Sky, TalkTalk, etc.).
