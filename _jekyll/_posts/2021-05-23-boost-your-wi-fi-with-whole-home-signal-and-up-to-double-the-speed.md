@@ -201,7 +201,7 @@ It’s also quite straightforward to do, but you **must turn off your original r
    * Usually this password is on a sticker on the back, sides or bottom of your router.
    * It’ll say something like “admin password” or “settings password” and it might have the router’s IP as well. Here’s what it looks like on the bottom of our Virgin router:![](/assets/images/uploads/img_0571.jpeg)
 4. You now need to find Wi-Fi or wireless settings and switch off Wi-Fi. **This will disconnect every device in the house.** Don’t forget to warn people.
-   * How to do this varies, on our Virgin router there’s a “Modem Mode” option, enabling it turns off Wi-Fi:![](/assets/images/uploads/screenshot-2021-05-23-at-11-43-34.png)
+   * How to do this varies, on our Virgin router there’s a “Modem mode” option, enabling it turns off Wi-Fi:![](/assets/images/uploads/screenshot-2021-05-23-at-11-43-34.png)
    * However I could also have done it manually by going to **Advanced settings > Wireless > Wireless signal** and checking the two **Disable XX GHz** options and saving:![](/assets/images/uploads/screenshot-2021-05-23-at-12-54-26.png)
    * If you’re stuck, Google is your friend. Search for “how to disable Wi-Fi on \[ISP\] router” replacing \[ISP\] with yours, e.g. “how to disable Wi-Fi on BT router” - usually your ISP will have a help article with step by step instructions
 
