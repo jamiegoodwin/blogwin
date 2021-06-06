@@ -85,7 +85,9 @@ It’s time to configure it.
 #### Configure the Router
 
 1. While on your **new router’s Wi-Fi**: open a web browser (Chrome, Safari, Edge).
-2. Visit this URL: [http://192.168.1.1/](http://192.168.1.1/ "Router configuration page")
+2. Visit this URL: [192.168.1.1](http://192.168.1.1/ "Router configuration page")
+   * If that doesn’t work, try visiting [router.asus.com](http://router.asus.com/ "ASUS router login")
+   * If _that_ doesn’t work, jump ahead to step five and use the instructions to get the IP address of the router
 3. You should be presented with this screen: ![The first screen of a new ASUS router’s configuration website, asking a user if they wish to create a new network or go into advanced settings.](/assets/images/uploads/screenshot-2021-05-23-at-11-01-07.png "ASUS router welcome screen")
 4. Hit **Create A New Network**
 
@@ -212,3 +214,7 @@ Once it’s done, all your old devices should reconnect. It’s probably worth s
 If everything connects up again to the new router, you’re done! 🥳
 
 Enjoy your new speedy Wi-Fi and hopefully faster Internet.
+
+### Troubleshooting
+
+#### Step one: re-read
