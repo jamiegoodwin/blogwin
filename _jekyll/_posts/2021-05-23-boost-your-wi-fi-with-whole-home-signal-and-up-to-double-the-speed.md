@@ -191,12 +191,24 @@ It’s also quite straightforward to do, but you **must turn off your original r
 
 It’s the last step! 🙌
 
-Right, so you’ve kicked everyone off the old Wi-Fi. By now your computer _should_ have rejoined the new router’s Wi-Fi. If it hasn’t, manually join it from the list of Wi-Fi networks.
+Right, so you’ve kicked everyone off the old Wi-Fi. By now your computer _should_ have rejoined the new router’s Wi-Fi. If it hasn’t, manually join it again.
 
 Now you need to find your ISP’s Wi-Fi details from their router. Again, usually this is on a sticker on the router they gave you, or a little card, or a separate set of stickers, or all of the above!
 
 You can see it on our Virgin router in the picture above. It’s also in the following two places:![](/assets/images/uploads/img_0570.jpeg)
 
-So you really can’t miss it.
+So you usually can’t miss it.
 
 1. Log into the new router’s admin website: [192.168.1.1](http://192.168.1.1/)
+2. In the section on the right where you put your cool name and made up password, enter the **old router’s** details as they are on the sticker/card. CapS MAttEr, so match them exactly.
+   * For example, if I were matching our old Virgin router ours would look like this:![](/assets/images/uploads/screenshot-2021-05-23-at-12-49-23.png)
+   * Unless you know you need to change it, leave **Authentication Method** as **WPA-2 Personal**. It’s the most secure, and even if your old router was on WPA-1 you should be fine to upgrade and not have to reconnect any devices (I tested and was able to switch between 1 & 2).
+3. Press **Apply**
+
+What _should_ happen now is that the router changes its Wi-Fi name and password to match that of your original router exactly.
+
+Once it’s done, all your old devices should reconnect. It’s probably worth switching everything off and on again at this point just to help them all reconnect.
+
+If everything connects up again to the new router, you’re done! 🥳
+
+Enjoy your new speedy Wi-Fi and hopefully faster Internet.
