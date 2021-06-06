@@ -153,6 +153,9 @@ That might not seem much but if you have a lot of devices simultaneously connect
 Now that you’ve got the router and it’s working, there are two more things to do to for the best setup:
 
 1. Disable Wi-Fi on your ISP’s modem-router.
+
+> **Explanation for nerds:** I keep referring to the new ASUS **router** and the old ISP’s **modem-router**. That’s because you need a **modem** to connect to the Internet - i.e. to receive a BT line or cable connection. However, since Wi-Fi, people have been using **routers** to share the Internet (strictly speaking a router doesn’t have to have Wi-Fi but most modern ones do). Nowadays most ISPs combine them into one device, a **modem-router**. We’re going to use the one provided by the ISP purely as a **modem** because that’s usually what they do best, and we’re using the fancy ASUS **router** to share the Internet out.
+
 2. Set your new router’s Wi-Fi name and password to match your ISP’s.
 
 You could do neither; 1 alone; or 1 and 2 together.
