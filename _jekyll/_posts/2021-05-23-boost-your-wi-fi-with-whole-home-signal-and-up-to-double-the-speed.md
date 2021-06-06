@@ -130,8 +130,27 @@ Turning off the Virgin router’s Wi-Fi squeezes out an additional **4 Mb/s** fo
 
 That might not seem much but if you have a lot of devices simultaneously connected and downloading, that impact will be greater.
 
+**Two More Steps**
+
+Now that you’ve got the router and it’s working, there are two more things to do to for the best setup:
+
+1. Disable WiFi on your ISP’s modem-router.
+2. Set your new router’s Wi-Fi name and password to match your ISP’s.
+
+You could do neither; 1 alone; or 1 and 2 together.
+
+Here’s a quick explanation of each:
+
+**Disable Wi-Fi on Your ISP’s Modem-router**
+
+This shouldn’t take long but how to do it varies by ISP. With Virgin’s Hub I had an option called “Modem Mode”, which disabled it. With my grandad’s Plusnet router I just had to go into Wi-Fi settings and switch it off. I can’t give you exact instructions but I can guide you.
+
+**Set Your New Router’s Wi-Fi Name and Password to Match Your ISP’s**
+
+This is easily the most useful step. If you do this then every device currently on the Internet in your house will automatically connect to the new router. It saves you having to reconnect everything one by one to a new Wi-Fi (for us, this meant a bunch of Sonos speakers, a smart meter, Google Home, 2 laptops, 2 phones, an Apple Watch...you get the picture).
+
+But it’s also slightly trickier to do and again, exactly how depends on your current device. I’ll guide you though using my Virgin Hub as an example.
+
 ### Step Five
 
 #### MORE SPEED!
-
-Coming soon.
