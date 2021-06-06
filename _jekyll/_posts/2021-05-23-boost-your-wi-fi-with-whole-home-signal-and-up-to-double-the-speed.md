@@ -43,7 +43,7 @@ If you get _really_ stuck, you can always call your ISP and tell them “somethi
 
 Also, if you leave a comment I’ll receive it in an email and I’ll try to help if I can.
 
-## 😲 How Can I Achieve This Magical Speed Improvement?
+## 😲 Okay. I am PUMPED. How Can I Achieve This Magical Speed Improvement?
 
 ### Step One
 
