@@ -152,7 +152,7 @@ That might not seem much but if you have a lot of devices simultaneously connect
 
 Now that you’ve got the router and it’s working, there are two more things to do to for the best setup:
 
-1. Disable WiFi on your ISP’s modem-router.
+1. Disable Wi-Fi on your ISP’s modem-router.
 2. Set your new router’s Wi-Fi name and password to match your ISP’s.
 
 You could do neither; 1 alone; or 1 and 2 together.
