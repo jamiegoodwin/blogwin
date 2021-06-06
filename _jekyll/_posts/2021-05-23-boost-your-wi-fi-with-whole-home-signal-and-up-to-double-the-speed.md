@@ -218,3 +218,13 @@ Enjoy your new speedy Wi-Fi and hopefully faster Internet.
 ### Troubleshooting
 
 #### Step one: re-read
+
+Seriously, it’s easy to miss one little thing and the whole lot won’t work. Go through and check you did everything, also double check you pressed **Apply** or saved settings after entering them. As long as you can still login to the routers’ admin interfaces you can still change settings.
+
+If you can’t connect to your ISP’s router because you turned the Wi-Fi off, unplug the Ethernet cable from the WAN port of the ASUS router and plug it into your computer. Now you should be able to connect and turn the Wi-Fi on again if necessary. If you don’t have an Ethernet port, see step two.
+
+#### Step two: reset
+
+Every router can be reset with a button on the back and a pen. The ASUS router has a little “Reset” button. Push it in with a pen, hold for 10s then release. It should go back to how it came in the box.
+
+The same goes for your ISP’s router. Either look for the reset button on the back and press and hold, usually 10s or until all the lights start flashing will do, or Google it: “how to factory reset \[ISP\] router”.
