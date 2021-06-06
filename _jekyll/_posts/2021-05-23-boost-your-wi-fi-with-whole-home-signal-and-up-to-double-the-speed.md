@@ -72,7 +72,7 @@ It’s time to configure it.
 1. Open your laptop or a good-sized tablet (preferably not a phone, this is harder on a tiny screen).
 2. Look for a Wi-Fi network called **ASUS_XX**
 
-   ![An image of a list of Wi-Fi networks on a macOS computer; accessible by clicking the settings icon in the top right or the screen](/assets/images/uploads/screenshot-2021-05-23-at-10-59-51.png "macOS Wi-Fi list")
+   ![An image of a list of Wi-Fi networks on a macOS computer; accessible by clicking the settings icon in the top right or the screen](/assets/images/uploads/827e1e49-718e-4b1a-aaf5-36a3dc24c164.png "macOS Wi-Fi list")
    * On a Mac click the little dials icon in the top right and go to Wi-Fi. On a PC it’s the wireless icon in the bottom right. [Instructions for a PC here.](https://support.microsoft.com/en-us/windows/connect-to-a-wi-fi-network-in-windows-10-1f881677-b569-0cd5-010d-e3cd3579d263 "How to connect to WiFi in Windows 10")![An image of the icons in the Windows taskbar that open the Wi-Fi networks list. One looks like a globe. One like a computer screen. One like a Wi-Fi symbol or radio waves.](/assets/images/uploads/6ef6a0c7-ad00-42e3-b803-6f68c062adc5.png "Windows Wi-Fi")
 3. Connect to either the 5G or 2G network - whichever has the strongest signal. If they’re the same choose 5G.
 
