@@ -227,4 +227,6 @@ If you can’t connect to your ISP’s router because you turned the Wi-Fi off, 
 
 Every router can be reset with a button on the back and a pen. The ASUS router has a little “Reset” button. Push it in with a pen, hold for 10s then release. It should go back to how it came in the box.
 
-The same goes for your ISP’s router. Either look for the reset button on the back and press and hold, usually 10s or until all the lights start flashing will do, or Google it: “how to factory reset \[ISP\] router”.
+The same goes for your ISP’s router. Either look for the reset button on the back and press and hold, usually 10s or until all the lights start flashing will do, or Google it: “how to factory reset \[ISP\] router”. Again, most ISPs will have help articles on their own websites for this.
+
+Factory resetting will restore the routers to how they came, so you can break stuff and redo without worry.
