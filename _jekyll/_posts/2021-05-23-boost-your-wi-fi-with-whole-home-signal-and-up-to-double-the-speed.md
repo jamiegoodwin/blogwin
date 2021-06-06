@@ -27,6 +27,22 @@ However, without _any_ extra setup you can see the ASUS router adds just over **
 
 That’s why you would do this ☺️
 
+## 😰 I’m Scared, What if I Break Stuff?
+
+At the end of the guide you’ll find a section called **Troubleshooting**. It guides you through resetting your router.
+
+If you’re worried because you’re not technical, before you start just grab the router from your ISP and look on the back/sides for a reset button. It’s usually tiny, so you’d use a pen to push it in.
+
+For example, he’s where the button is on the new ASUS router with better Wi-Fi and on our original Virgin router:
+
+![](/assets/images/uploads/6ce8d54d-ab85-4213-ba2b-e5eea3cb1d51.jpeg)
+
+If you can find that button and a pen to reach it, then you can reset either router to as it was in the box.
+
+If you get _really_ stuck, you can always call your ISP and tell them “something’s wrong with my Internet and I have literally NO IDEA why it broke 😇”.
+
+Also, if you leave a comment I’ll receive it in an email and I’ll try to help if I can.
+
 ## 😲 How Can I Achieve This Magical Speed Improvement?
 
 ### Step One
