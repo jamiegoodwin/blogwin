@@ -149,8 +149,54 @@ This shouldn’t take long but how to do it varies by ISP. With Virgin’s Hub I
 
 This is easily the most useful step. If you do this then every device currently on the Internet in your house will automatically connect to the new router. It saves you having to reconnect everything one by one to a new Wi-Fi (for us, this meant a bunch of Sonos speakers, a smart meter, Google Home, 2 laptops, 2 phones, an Apple Watch...you get the picture).
 
-But it’s also slightly trickier to do and again, exactly how depends on your current device. I’ll guide you though using my Virgin Hub as an example.
+It’s also quite straightforward to do, but you **must turn off your original router’s Wi-Fi first** or your devices will get confused.
 
 ### Step Five
 
-#### MORE SPEED!
+#### MORE SPEED! (Turn off your original router’s Wi-Fi)
+
+1. Rejoin your **original Wi-Fi** (the one your ISP gave you).
+2. Now you need to visit the **IP address** of the modem-router from your ISP in your browser, there are a few ways to do it:
+   1. Guess! No kidding. This is probably the fastest way as most routers are standard, it’s likely to be one of the following. You’ll know it works because you’ll see a router screen instead of an error in your browser.
+      * [192.168.0.1](http://192.168.0.1/)
+      * [192.168.1.1](http://192.168.1.1/) (easily the most common)
+      * [192.168.2.1](http://192.168.2.1/)
+      * [192.168.1.254](http://192.168.1.254/) (BT/Plusnet)
+   2. Google “**IP address of \[ISP\] router**” - replace \[ISP\] with your, e.g. “IP address of BT router”. Usually it’s in the snippet Google gives you at the top.
+   3. Find it from the current Wi-Fi properties. [Instructions](https://www.noip.com/support/knowledgebase/finding-your-default-gateway/ "Find your default gateway on a PC or Mac"), or:
+      * On a PC:
+        * Press the Windows start button/keyboard key
+        * Type `cmd`
+        * Open **Command Prompt**
+        * Type `ipconfig`
+        * Press enter
+        * Look for `Default Gateway:` - the numbers after it are your router’s IP address
+      * On a Mac:
+        * Click the settings icon![](/assets/images/uploads/screenshot-2021-05-23-at-12-21-50.png)
+        * While holding the **Alt** or (on older Macs) **Option** key, which has this symbol ⌥, click the Wi-Fi button![](/assets/images/uploads/screenshot-2021-05-23-at-12-22-59.png)
+        * Under the name of your Wi-Fi, look for **Router:** - the numbers that follow are your router’s IP address
+3. Once you’ve got to the right IP in your browser you should see a login screen, this is Virgin’s:![](/assets/images/uploads/screenshot-2021-05-23-at-11-43-04.png)
+   * You’ll need to enter a password and possibly username to login to your router and change its settings.
+   * Sometimes you need to enter it here, sometimes when you get into the settings.
+   * Usually this password is on a sticker on the back, sides or bottom of your router.
+   * It’ll say something like “admin password” or “settings password” and it might have the router’s IP as well. Here’s what it looks like on the bottom of our Virgin router:![](/assets/images/uploads/img_0571.jpeg)
+4. You now need to find Wi-Fi or wireless settings and switch off Wi-Fi. **This will disconnect every device in the house.** Don’t forget to warn people.
+   * How to do this varies, on our Virgin router there’s a “Modem Mode” option, enabling it turns off Wi-Fi:![](/assets/images/uploads/screenshot-2021-05-23-at-11-43-34.png)
+   * However I could also have done it manually by going to **Advanced settings > Wireless > Wireless signal** and checking the two **Disable XX GHz** options and saving:![](/assets/images/uploads/screenshot-2021-05-23-at-12-54-26.png)
+   * If you’re stuck, Google is your friend. Search for “how to disable Wi-Fi on \[ISP\] router” replacing \[ISP\] with yours, e.g. “how to disable Wi-Fi on BT router” - usually your ISP will have a help article with step by step instructions
+
+### Step Six
+
+#### Update your new router’s Wi-Fi details
+
+It’s the last step! 🙌
+
+Right, so you’ve kicked everyone off the old Wi-Fi. By now your computer _should_ have rejoined the new router’s Wi-Fi. If it hasn’t, manually join it from the list of Wi-Fi networks.
+
+Now you need to find your ISP’s Wi-Fi details from their router. Again, usually this is on a sticker on the router they gave you, or a little card, or a separate set of stickers, or all of the above!
+
+You can see it on our Virgin router in the picture above. It’s also in the following two places:![](/assets/images/uploads/img_0570.jpeg)
+
+So you really can’t miss it.
+
+1. Log into the new router’s admin website: [192.168.1.1](http://192.168.1.1/)
