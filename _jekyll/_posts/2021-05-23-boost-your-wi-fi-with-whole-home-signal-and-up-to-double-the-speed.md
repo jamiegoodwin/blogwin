@@ -37,7 +37,7 @@ The router you need is the [ASUS RT-AC86U](https://www.amazon.co.uk/gp/product/B
 
 It’s usually £130 on Amazon (although I've seen it around £150) and if you use my links I’ll get 12% commission 😊 but if you can find it cheaper elsewhere, go for it!
 
-[![A futuristic black router with red stripes, 8 LEDs, 3 antennae and an “ASUS” logo sitting above a raised angled point on the front.](/assets/images/uploads/228efe39-feaa-4295-a942-085bd77df405.png "ASUS RT-AC86U router")](https://www.amazon.co.uk/gp/product/B075WFL15D/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B075WFL15D&linkCode=as2&tag=jevawin-21&linkId=d40a3435a8145e383ae0899dfbc8d28e "ASUS RT-AC86U router on Amazon")
+![A futuristic black router with red stripes, 8 LEDs, 3 antennae and an “ASUS” logo sitting above a raised angled point on the front.](/assets/images/uploads/228efe39-feaa-4295-a942-085bd77df405.png "ASUS RT-AC86U router")
 
 ### Step Two
 
