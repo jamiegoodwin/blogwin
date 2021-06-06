@@ -259,6 +259,6 @@ That’s because you don’t need to change Wi-Fi networks because everything st
 
 That’s it!
 
-I hope it works out for you. If you get into trouble or indeed if it works and you just want to say THANK YOU SO MUCH JAMIE then please, hit me up in the comments.
+I hope it works out for you. If you get into trouble or indeed if it works and you just want to say “THANK YOU SO MUCH JAMIE” then please, hit me up in the comments.
 
 Jamie
