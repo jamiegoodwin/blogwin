@@ -101,8 +101,8 @@ It’s time to configure it.
 #### Configure the Router
 
 1. While on your **new router’s Wi-Fi**: open a web browser (Chrome, Safari, Edge).
-2. Visit this URL: [192.168.1.1](http://192.168.1.1/ "Router configuration page")
-   * If that doesn’t work, try visiting [router.asus.com](http://router.asus.com/ "ASUS router login")
+2. Visit this URL: [router.asus.com](http://router.asus.com/ "ASUS router login")
+   * If that doesn’t work, try visiting [192.168.1.1](http://192.168.1.1/ "Router configuration page") or [192.168.0.1](http://192.168.0.1/) 
    * If _that_ doesn’t work, jump ahead to step five and use the instructions to get the IP address of the router
 3. You should be presented with this screen: ![The first screen of a new ASUS router’s configuration website, asking a user if they wish to create a new network or go into advanced settings.](/assets/images/uploads/screenshot-2021-05-23-at-11-01-07.png "ASUS router welcome screen")
 4. Hit **Create A New Network**
@@ -219,7 +219,7 @@ You can see it on our Virgin router in the picture above. It’s also in the fol
 
 So you usually can’t miss it.
 
-1. Log into the new router’s admin website: [192.168.1.1](http://192.168.1.1/) ([router.asus.com](http://router.asus.com/) or the same IP as step four if you had to find it manually)
+1. Log into the new router’s admin website: [router.asus.com](http://router.asus.com/) (or [192.168.1.1](http://192.168.1.1/) or the same IP as step four if you had to find it manually)
 2. In the section on the right where you put your cool name and made up password, enter the **old router’s** details as they are on the sticker/card. CapS MAttEr, so match them exactly.
    * For example, if I were matching our old Virgin router ours would look like this:![](/assets/images/uploads/screenshot-2021-05-23-at-12-49-23.png)
    * Unless you know you need to change it, leave **Authentication Method** as **WPA-2 Personal**. It’s the most secure, and even if your old router was on WPA-1 (which is unlikely unless its years old) you should be fine to upgrade and not have to reconnect any devices (I tested and was able to switch between WPA-1 & WPA-2).
