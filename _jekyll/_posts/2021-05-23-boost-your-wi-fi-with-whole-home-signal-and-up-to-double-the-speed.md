@@ -248,3 +248,17 @@ Every router can be reset with a button on the back and a pen. The ASUS router h
 The same goes for your ISP’s router. Either look for the reset button on the back and press and hold, usually 10s or until all the lights start flashing will do, or Google it: “how to factory reset \[ISP\] router”. Again, most ISPs will have help articles on their own websites for this.
 
 Factory resetting will restore the routers to how they came, so you can break stuff and redo without worry.
+
+## Wait, What If I Change Broadband Provider (ISP)?
+
+If you sack off your broadband provider and get a new one, this will actually save you a bunch of time.
+
+That’s because you don’t need to change Wi-Fi networks because everything stays connected to your new ASUS router. All you need to do is unplug the LAN cable from your old ISP’s modem-router, plug it into the new one (keep the WAN end plugged into the ASUS router) and disable Wi-Fi on the new ISP’s router - in other words, repeat **step five**.
+
+***
+
+That’s it!
+
+I hope it works out for you. If you get into trouble or indeed if it works and you just want to say THANK YOU SO MUCH JAMIE then please, hit me up in the comments.
+
+Jamie
