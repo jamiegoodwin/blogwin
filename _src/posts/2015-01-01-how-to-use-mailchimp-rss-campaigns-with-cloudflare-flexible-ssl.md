@@ -17,7 +17,7 @@ Despite the fact that (in my case at least) W3C validates your RSS feed perfectl
 
 That's because of the way CloudFlare's Flexible SSL works. Instead of providing full SSL, it only secures the traffic between your **reader** and **CloudFlare**. Best explained [by CloudFlare](https://support.cloudflare.com/hc/en-us/articles/200170416-What-do-the-SSL-options-Off-Flexible-SSL-Full-SSL-Full-SSL-Strict-mean-) using this diagram:
 
-![How CloudFlare's SSL options work](https://www.cloudflare.com/images/ssl/ssl.png)
+![How CloudFlare's SSL options work](https://images.ctfassets.net/slt3lc6tev37/AVQoALCTVYbAL2sYeBfl6/01dd917f7e6c2b386f542dc936db99bd/hc-import-ssl_tls_flexible.png)
 
 MailChimp seems to detect that your origin server (the one providing the RSS feed) doesn't have SSL enabled and so rejects the feed. To work around the problem, you'll need to add a page rule to CloudFlare.
 

@@ -6,6 +6,7 @@
   "scripts": {
     "clean": "rm -R _dist",
     "develop": "eleventy --serve",
+    "develop-fresh": "npm run clean && npm run develop",
     "build": "eleventy"
   },
   "repository": {
