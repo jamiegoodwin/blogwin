@@ -14,7 +14,7 @@ require("dotenv").config();
 nunjucks.configure("views", {}).addGlobal("CFWA_TOKEN", process.env.CFWA_TOKEN);
 
 // eleventy input and output dirs
-const inputDir = "_src/assets";
+const inputDir = "_src";
 const outputDir = "_dist";
 
 // markdown-it-class mapping
@@ -93,19 +93,22 @@ module.exports = (config) => {
       }
 
       // run image through elevnty-img
-      // let metadata = await Image(src, {
-      //   widths: [600],
-      //   formats: ["jpeg"],
-      // });
+      let metadata = await Image(src, {
+        widths: [600],
+        formats: ["jpeg"],
+        outputDir: "_dist/assets/images"
+      });
 
-      // let data = metadata.jpeg[metadata.jpeg.length - 1];
+      let data = metadata.jpeg[metadata.jpeg.length - 1];
+
+      console.log(data);
 
       // replace image details with new image details
       image.setAttribute("loading", "lazy");
       image.setAttribute("decoding", "async");
-      // image.setAttribute("width", data.width);
-      // image.setAttribute("height", data.height);
-      // image.setAttribute("src", data.src);
+      image.setAttribute("width", data.width);
+      image.setAttribute("height", data.height);
+      image.setAttribute("src", data.src);
 
       // send the image back
       return image;
@@ -127,8 +130,7 @@ module.exports = (config) => {
 
       // images? let's responsivise them
       imageElems.forEach(image => {
-        image.setAttribute("src", null);
-        //image = eleventyImg(image);
+        image = eleventyImg(image);
       });
 
       return `<!DOCTYPE html> ${document.documentElement.outerHTML}`;
