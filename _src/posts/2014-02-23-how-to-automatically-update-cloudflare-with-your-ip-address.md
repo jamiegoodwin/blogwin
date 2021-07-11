@@ -7,7 +7,7 @@ date: 2014-02-23T00:00:00.000Z
 
 For the uninitiated, CloudFlare is a fantastic *free* service that will improve the security and speed of your website.
 
-![](/2014/Feb/Screenshot_2014_02_23_16_27_49.png)
+![](/assets/images/uploads/Screenshot_2014_02_23_16_27_49.png)
 
 They offer a DNS-managed CDN, which means your static content is *automa(t|g)ically* cached around the world. They also provide website security, by detecting and challenging malicious activity.
 
@@ -17,7 +17,7 @@ If you haven't already done so, head over to CloudFlare and [set up an account](
 
 You should end up with a few records, the most important of which will be similar to this:
 
-![](/2014/Feb/Screenshot_2014_02_23_13_58_18.png)
+![](/assets/images/uploads/Screenshot_2014_02_23_13_58_18.png)
 
 This is what we're going to point to the Pi. To do so, you'll need you API key. Leave the following page open in CloudFlare:
 

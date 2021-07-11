@@ -96,19 +96,18 @@ module.exports = (config) => {
       let metadata = await Image(src, {
         widths: [600],
         formats: ["jpeg"],
-        outputDir: "_dist/assets/images"
+        outputDir: "_dist/assets/images",
+        urlPath: "/assets/images/"
       });
 
       let data = metadata.jpeg[metadata.jpeg.length - 1];
-
-      console.log(data);
 
       // replace image details with new image details
       image.setAttribute("loading", "lazy");
       image.setAttribute("decoding", "async");
       image.setAttribute("width", data.width);
       image.setAttribute("height", data.height);
-      image.setAttribute("src", data.src);
+      image.setAttribute("src", data.url);
 
       // send the image back
       return image;
@@ -128,15 +127,19 @@ module.exports = (config) => {
         return content;
       }
 
-      // images? let's responsivise them
-      imageElems.forEach(image => {
-        image = eleventyImg(image);
-      });
+      // loop through images, resize via and make responsive Eleventy Image
+      const processImages = async () => {
+        await Promise.all(Object.keys(imageElems).map(async (i) => {
+          imageElems[i] = await eleventyImg(imageElems[i]);
+        }));
+        
+        return `<!DOCTYPE html> ${document.documentElement.outerHTML}`;
+      }
 
-      return `<!DOCTYPE html> ${document.documentElement.outerHTML}`;
+      return await processImages();
+    } else {
+      return content;
     }
-
-    return content;
   });
 
   // minify html and uglify classnames
