@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/jamiegoodwin/blogwin#readme",
   "dependencies": {
-    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-cache-assets": "^2.1.0",
     "@11ty/eleventy-img": "^0.8.2",
     "@gerhobbelt/markdown-it": "^12.0.4-53",
@@ -27,6 +27,7 @@
     "autoprefixer": "^10.2.1",
     "clean-css": "^4.2.3",
     "dotenv": "^8.2.0",
+    "eleventy": "^1.0.6",
     "eleventy-plugin-tailwindcss": "^0.3.0",
     "html-minifier": "^4.0.0",
     "i": "^0.3.6",
@@ -34,7 +35,7 @@
     "markdown-it-class": "file:./markdown-it-class",
     "npm": "^7.7.5",
     "nunjucks": "^3.2.2",
-    "posthtml-minify-classnames": "^0.2.3",
+    "posthtml-minify-classnames": "^0.1.7",
     "tailwindcss": "^2.0.2",
     "webpack": "^5.11.1",
     "webpack-cli": "^4.3.1"
