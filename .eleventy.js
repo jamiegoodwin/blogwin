@@ -81,6 +81,7 @@ module.exports = (config) => {
     async function eleventyImg(image) {
       // get the `src` and `alt` of the image element
       let src = image.getAttribute("src");
+      let alt = image.getAttribute("alt");
 
       if (src === undefined) {
         // no src = no chance
@@ -92,25 +93,60 @@ module.exports = (config) => {
         src = `${__dirname}/${inputDir}${src}`;
       }
 
+      // set up some widths
+      let sizes = [320, 568, 768, 900];
+
       // run image through elevnty-img
       let metadata = await Image(src, {
-        widths: [600],
-        formats: ["jpeg"],
+        widths: sizes,
+        formats: ["webp", "jpeg"],
         outputDir: "_dist/assets/images",
         urlPath: "/assets/images/"
       });
+ 
+      let imageAttributes = {
+        alt,
+        sizes,
+        loading: "lazy",
+        decoding: "async",
+      };
 
-      let data = metadata.jpeg[metadata.jpeg.length - 1];
+      // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
+      return Image.generateHTML(metadata, imageAttributes);
 
-      // replace image details with new image details
-      image.setAttribute("loading", "lazy");
-      image.setAttribute("decoding", "async");
-      image.setAttribute("width", data.width);
-      image.setAttribute("height", data.height);
-      image.setAttribute("src", data.url);
+  // // create picture element
+      // let picture = document.createElement("picture");
+
+      // // build responsive images
+      // for (let i = 0; i < widths.length; i++) {
+      //   let webp = document.createElement("source");
+      //   let jpeg = document.createElement("source");
+      //   let fallback = metadata.jpeg[metadata.jpeg.length - 1];
+
+      //   // webp.setAttribute("srcset", metadata.webp[i].srcset);
+      //   // webp.setAttribute("type", metadata.webp[i].sourceType);
+      //   // picture.appendChild(webp);
+
+      //   jpeg.setAttribute("srcset", metadata.webp[i].srcset);
+      //   jpeg.setAttribute("type", metadata.webp[i].sourceType);
+      //   picture.appendChild(jpeg);
+      // };
+
+      // // add img fallback
+      // image.setAttribute("src", fallback.url);        
+      // image.setAttribute("loading", "lazy");
+      // image.setAttribute("decoding", "async");
+      // image.setAttribute("width", fallback.width);
+      // image.setAttribute("height", fallback.height);
+
+      // // add img to picture
+      // picture.appendChild(image);
+
+      // // replace img with picture
+      // image.replaceWith(picture);
 
       // send the image back
-      return image;
+      // return image;
     }
 
     // only apply transforms if the output is html (not xml or css or something)
@@ -130,7 +166,7 @@ module.exports = (config) => {
       // loop through images, resize via and make responsive Eleventy Image
       const processImages = async () => {
         await Promise.all(Object.keys(imageElems).map(async (i) => {
-          imageElems[i] = await eleventyImg(imageElems[i]);
+          imageElems[i].outerHTML = await eleventyImg(imageElems[i]);
         }));
         
         return `<!DOCTYPE html> ${document.documentElement.outerHTML}`;

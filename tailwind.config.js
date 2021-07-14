@@ -6,7 +6,7 @@ module.exports = {
       "./.eleventy.js"
     ],
   },
-  darkMode: "class", // 'media' or 'class'
+  darkMode: "media", // 'media' or 'class'
   theme: {
     extend: {},
   },
