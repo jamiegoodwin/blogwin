@@ -10,8 +10,9 @@ const posthtml = require("posthtml");
 const uglify = require("posthtml-minify-classnames");
 require("dotenv").config();
 
-// Environment variables in Nunjucks
+// Environment variables
 nunjucks.configure("views", {}).addGlobal("CFWA_TOKEN", process.env.CFWA_TOKEN);
+const environment = process.env.ENVIRONMENT;
 
 // eleventy input and output dirs
 const inputDir = "_src";
@@ -99,7 +100,7 @@ module.exports = (config) => {
       // run image through elevnty-img
       let metadata = await Image(src, {
         widths: sizes,
-        formats: ["webp", "jpeg"],
+        formats: ["avif", "webp", "jpeg"],
         outputDir: "_dist/assets/images",
         urlPath: "/assets/images/"
       });
@@ -113,40 +114,6 @@ module.exports = (config) => {
 
       // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
       return Image.generateHTML(metadata, imageAttributes);
-
-  // // create picture element
-      // let picture = document.createElement("picture");
-
-      // // build responsive images
-      // for (let i = 0; i < widths.length; i++) {
-      //   let webp = document.createElement("source");
-      //   let jpeg = document.createElement("source");
-      //   let fallback = metadata.jpeg[metadata.jpeg.length - 1];
-
-      //   // webp.setAttribute("srcset", metadata.webp[i].srcset);
-      //   // webp.setAttribute("type", metadata.webp[i].sourceType);
-      //   // picture.appendChild(webp);
-
-      //   jpeg.setAttribute("srcset", metadata.webp[i].srcset);
-      //   jpeg.setAttribute("type", metadata.webp[i].sourceType);
-      //   picture.appendChild(jpeg);
-      // };
-
-      // // add img fallback
-      // image.setAttribute("src", fallback.url);        
-      // image.setAttribute("loading", "lazy");
-      // image.setAttribute("decoding", "async");
-      // image.setAttribute("width", fallback.width);
-      // image.setAttribute("height", fallback.height);
-
-      // // add img to picture
-      // picture.appendChild(image);
-
-      // // replace img with picture
-      // image.replaceWith(picture);
-
-      // send the image back
-      // return image;
     }
 
     // only apply transforms if the output is html (not xml or css or something)
@@ -181,7 +148,7 @@ module.exports = (config) => {
   // minify html and uglify classnames
   // TODO production only
   config.addTransform("htmlmin", async (content, outputPath) => {
-    if (outputPath.endsWith(".html")) {
+    if (outputPath.endsWith(".html") && environment === "production") {
       const { html } = await posthtml().use(uglify()).process(content);
 
       let minified = htmlmin.minify(html, {
